@@ -1,0 +1,28 @@
+npm init -y
+
+yarn add react react-dom next
+
+npx gitignore node
+
+yarn dev
+
+crie a pasta pages/ index.tsx. 
+
+em tsconfig
+
+abaixo de "jsx": "preserve", cole
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["./src/*"]
+    }
+
+yarn add styled-components  @types/styled-components
+
+em pages crie o _document.tsx
+
+crie na raiz next.config.js
+ nos arquivos ja tem o codigo para usar
+
+github.com/skynexui/responsive_stylesheet
+
+yarn add @displaykit/responsive_styles
