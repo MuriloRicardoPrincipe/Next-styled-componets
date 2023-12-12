@@ -7,6 +7,10 @@ interface StyledBaseComponet{
     styleSheet?: StyleSheet;
 }
 const StyledBaseComponet = styled.div<StyledBaseComponet>`
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+flex-shrink: 0;
     ${({styleSheet}) => parseStyleSheet(styleSheet) }
 `;
 

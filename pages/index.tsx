@@ -1,3 +1,6 @@
+export {default} from "@src/screens/HomeScreen/HomeScreen"
+
+/*
 import Box from "../src/components/Box";
 import theme from "../src/theme/theme";
 
@@ -13,3 +16,4 @@ export default function HomeScreen() {
     </Box>
   )
 }
+*/
